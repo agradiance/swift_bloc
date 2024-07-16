@@ -1,6 +1,6 @@
 name: swift_bloc
 description: "Bloc Simplified: Be Productive | Save your time"
-version: 0.0.2 # previous version -> 0.0.1
+version: 0.0.3 # previous version -> 0.0.2
 homepage:
 repository: https://github.com/agradiance/swift_bloc
 

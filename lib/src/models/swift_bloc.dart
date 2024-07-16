@@ -13,7 +13,7 @@ abstract class SwiftBloc<StateModel> extends Bloc<SwiftEvent<StateModel>, SwiftS
 
   FutureOr onSwiftEvent(SwiftEvent<StateModel> event, Emitter<SwiftState> emit) async {
     if (state.model != event.model) {
-      emit(state.copyWith(model: event.model));
+      emit(SwiftState<StateModel>(model: event.model));
     }
   }
 
